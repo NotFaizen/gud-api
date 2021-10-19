@@ -1,0 +1,38 @@
+{
+  "discord_server": "Soon™ & join https://discord.gg/HbWpEAcmFk",
+    "endpoints": {
+      "fun_endpoints": [
+        "GET /fun/8ball",
+        "GET /fun/animequote",
+        "GET /fun/dadjoke",
+        "GET /fun/pickuplines",
+        "GET /fun/joke/:type",
+        "GET /fun/foodporn"
+      ],
+      "interaction_endpoints": [
+        "GET /interactions/sfw/hug",
+      ],
+      "nsfw_endpoints": [
+        "GET /nsfw/ass",
+        "GET /nsfw/bdsm",
+        "GET /nsfw/boobs",
+        "GET /nsfw/blowjob",
+        "GET /nsfw/futanari",
+        "GET /nsfw/hentai",
+        "GET /nsfw/lewdneko",
+        "GET /nsfw/lewdbomb",
+        "GET /nsfw/succubus",
+        "GET /nsfw/tentacles",
+        "GET /nsfw/yuri",
+      ],
+      "misc_endpoints": [
+        "GET /misc/neko",
+        "GET /misc/foxgirl",
+        "GET /misc/okami",
+        "GET /misc/faizen",
+      ]
+    },
+    "extra_stuff": {
+      "github": "https://github.com/NotFaizen/gud-api" 
+    }
+}
