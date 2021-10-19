@@ -44,9 +44,3 @@ app.listen(5000, () => {
 app.set('json spaces', 1); // clean look
 app.use(monitor()) // logs an stuff
 
-// console.log(nsfw.hi()) 
-
-// i join :trolla:
-// capps
-// inv when
-// https://replit.com/join/dxtnkpoxaj-resetxd smshsmshsmsh
