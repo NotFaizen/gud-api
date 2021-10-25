@@ -7,23 +7,23 @@
         "GET /fun/dadjoke",
         "GET /fun/pickuplines",
         "GET /fun/joke/:type",
-        "GET /fun/foodporn"
+        "GET /fun/foodporn[?simplify=<true/false>]"
       ],
       "interaction_endpoints": [
         "GET /interactions/sfw/hug",
       ],
       "nsfw_endpoints": [
-        "GET /nsfw/ass",
-        "GET /nsfw/bdsm",
-        "GET /nsfw/boobs",
-        "GET /nsfw/blowjob",
-        "GET /nsfw/futanari",
-        "GET /nsfw/hentai",
-        "GET /nsfw/lewdneko",
-        "GET /nsfw/lewdbomb",
-        "GET /nsfw/succubus",
-        "GET /nsfw/tentacles",
-        "GET /nsfw/yuri",
+        "GET /nsfw/ass?key=YOUR_API_KEY",
+        "GET /nsfw/bdsm?key=YOUR_API_KEY",
+        "GET /nsfw/boobs?key=YOUR_API_KEY",
+        "GET /nsfw/blowjob?key=YOUR_API_KEY",
+        "GET /nsfw/futanari?key=YOUR_API_KEY",
+        "GET /nsfw/hentai?key=YOUR_API_KEY",
+        "GET /nsfw/lewdneko?key=YOUR_API_KEY",
+        "GET /nsfw/lewdbomb?key=YOUR_API_KEY",
+        "GET /nsfw/succubus?key=YOUR_API_KEY",
+        "GET /nsfw/tentacles?key=YOUR_API_KEY",
+        "GET /nsfw/yuri?key=YOUR_API_KEY",
       ],
       "misc_endpoints": [
         "GET /misc/neko",
@@ -33,6 +33,16 @@
       ]
     },
     "extra_stuff": {
-      "github": "https://github.com/NotFaizen/gud-api" 
+      "github": "https://github.com/NotFaizen/gud-api",
+      },
+    "wrappers": {
+      "javascript": {
+        "github": "https://github.com/ServerDeveloper9447/gud-wrapper",
+        "npmjs": "https://npmjs.org/package/gud-wrapper",
+      },
+      "python": {
+        "github": "soon™️",
+        "pypi": "soon™️"
+      }
     }
-}
+  }
